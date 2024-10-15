@@ -4,68 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple String Reverser</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            text-align: center;
-            padding: 20px;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-        }
-
-        h1 {
-            font-size: 24px;
-        }
-
-        label, p {
-            text-align: left;
-            margin-left: 10px;
-        }
-
-        input[type="text"] {
-            padding: 5px;
-            width: 80%;
-            margin-bottom: 15px;
-            font-size: 14px;
-        }
-
-        button {
-            background-color: green;
-            color: white;
-            font-weight: bold;
-            padding: 10px 15px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background-color: darkgreen;
-        }
-
-        #reversed-string {
-            width: 80%;
-            padding: 5px;
-            font-size: 14px;
-            margin-top: 5px;
-        }
-    </style>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Simple String Reverser</h1>
         <p>Enter a string:</p>
         <form id="reverseForm">
-            <input type="text" id="inputString" placeholder="Nice string">
+            <input type="text" id="inputString" placeholder="Test string">
             <button type="button" id="reverseButton">Reverse</button>
         </form>
         <p>Reversed string:</p>
